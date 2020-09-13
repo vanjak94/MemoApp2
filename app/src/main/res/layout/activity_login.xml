@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/memoColor2"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/memoimg"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:hint="username"
+        android:gravity="center"
+        android:id="@+id/edittext_username"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="70dp"
+        android:background="#e3fdff" />
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:hint="password"
+        android:id="@+id/edittext_password"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#e3fdff"/>
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/textview_register"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Register here"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+
+
+
+</LinearLayout>

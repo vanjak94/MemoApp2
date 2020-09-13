@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MemoApp</string>
+    <string name="title_activity_add_memo">AddMemo</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>

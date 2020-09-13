@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#389f4b</color>
+    <color name="colorAccent">#940039</color>
+    <color name="memoColor">#fef9dc</color>
+    <color name="memoColor2">#f7f2d5</color>
+    <color name="lineColor">#4f1f08</color>
+    <color name="yellow">#e1b817</color>
+    <color name="login">#cebb71</color>
+</resources>
